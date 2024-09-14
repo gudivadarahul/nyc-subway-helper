@@ -10,6 +10,12 @@
     "test": "echo \"No tests available\" && exit 0"
   },
   "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "gtfs-realtime-bindings": "^1.1.1",
+    "leaflet": "^1.9.4",
+    "protobufjs": "^7.4.0",
     "vue": "^3.4.37",
     "vue-router": "^4.4.5"
   },

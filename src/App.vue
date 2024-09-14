@@ -1,14 +1,26 @@
-<script setup>
-import { RouterView } from 'vue-router'; // Import RouterView for displaying the routed component
-</script>
+<!-- src/App.vue -->
 
 <template>
-  <div>
-    <!-- Display the routed component inside MainLayout -->
-    <RouterView />
+  <div id="app">
+    <RealtimeUpdates />
   </div>
 </template>
 
-<style scoped>
-/* You can keep your styles here or move them if they are not needed anymore */
+<script>
+import RealtimeUpdates from './components/RealtimeUpdates.vue';
+
+export default {
+  components: {
+    RealtimeUpdates,
+  },
+};
+</script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
 </style>
